@@ -1,4 +1,4 @@
-import { Box, Heading, Text, VStack, Container } from '@chakra-ui/react'
+import { Box, Heading, Text, VStack, Container, Button, Link } from '@chakra-ui/react'
 
 const About = () => {
   return (
@@ -10,14 +10,22 @@ const About = () => {
           </Heading>
           <VStack gap={4} align="flex-start">
             <Text fontSize="lg" color="gray.300">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. I started coding when I was like 12 or something, messing around with random stuff on the internet. Fast forward to today and I've built everything from janky scripts to actual production systems.
+              I've been in the software game for about 5 years now, working at places like Amazon and Meta. Originally from Lima, Peru. Studied Mechanical and Aerospace Engineering, but ended up going the self-taught route into software.
             </Text>
             <Text fontSize="lg" color="gray.300">
-              When I'm not writing code, you can find me doing whatever people do when they're not writing code. Probably thinking about writing code. Or eating tacos. Both are valid life choices.
+              I consider myself a generalist. One day I'm debugging scaling issues, the next I'm shaving milliseconds off system latency, and sometimes I'm just deep in product work figuring out what we should even be building. I like solving problems, whatever shape they come in.
             </Text>
             <Text fontSize="lg" color="gray.300">
-              I believe in building things that actually work and don't make users want to throw their computers out the window. Simple philosophy, really.
+              Outside of work, I spend time helping new grads and college students with career growth, sharing everything I've learned throughout my time in tech. If I can help someone skip a few of the mistakes I made, that's a win.
             </Text>
+            <Text fontSize="lg" color="gray.300">
+              When I'm not working, you'll probably find me traveling somewhere new or playing ping pong.
+            </Text>
+            <Link href="#" target="_blank">
+              <Button colorPalette="teal" size="lg" mt={4}>
+                Schedule a 1:1 with me!
+              </Button>
+            </Link>
           </VStack>
         </VStack>
       </Container>
