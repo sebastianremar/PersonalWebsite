@@ -1,4 +1,4 @@
-import { Box, Heading, Text, Button, VStack, HStack, Container } from '@chakra-ui/react'
+import { Box, Heading, Text, Button, VStack, HStack, Container, Link } from '@chakra-ui/react'
 
 const Me = () => {
   return (
@@ -12,9 +12,11 @@ const Me = () => {
             Generalist Software Engineer passionate about solving problems.
           </Text>
           <HStack gap={4} pt={6}>
-            <Button colorPalette="teal" size="lg">
-              View My Work
-            </Button>
+            <Link href="#projects">
+              <Button colorPalette="teal" size="lg">
+                View My Work
+              </Button>
+            </Link>
             <Button variant="outline" colorPalette="teal" size="lg">
               Contact Me
             </Button>
