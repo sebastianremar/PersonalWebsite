@@ -13,7 +13,7 @@ const About = () => {
               I've been in the software game for about 5 years now, working at places like Amazon and Meta. Originally from Lima, Peru. Studied Mechanical and Aerospace Engineering, but ended up going the self-taught route into software.
             </Text>
             <Text fontSize="lg" color="gray.300">
-              I consider myself a generalist. One day I'm debugging scaling issues, the next I'm shaving milliseconds off system latency, and sometimes I'm just deep in product work figuring out what we should even be building. I like solving problems, whatever shape they come in.
+              I'm a generalist. Scaling problems, latency issues, product decisions. I go where the problems are and figure it out.
             </Text>
             <Text fontSize="lg" color="gray.300">
               Outside of work, I spend time helping new grads and college students with career growth, sharing everything I've learned throughout my time in tech. If I can help someone skip a few of the mistakes I made, that's a win.
