@@ -1,5 +1,7 @@
 import { Box, Heading, Text, VStack, Container, Button, Link } from '@chakra-ui/react'
 
+const CAL_URL = import.meta.env.VITE_CAL_URL
+
 const About = () => {
   return (
     <Box id="about" py={20}>
@@ -21,7 +23,7 @@ const About = () => {
             <Text fontSize="lg" color="gray.300">
               When I'm not working, you'll probably find me traveling somewhere new or playing ping pong.
             </Text>
-            <Link href="#" target="_blank">
+            <Link href={CAL_URL} target="_blank">
               <Button colorPalette="teal" size="lg" mt={4}>
                 Schedule a 1:1 with me!
               </Button>
