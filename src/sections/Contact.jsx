@@ -12,7 +12,7 @@ const Contact = () => {
             Contact
           </Heading>
           <VStack gap={4} align="flex-start">
-            <Text fontSize="lg" color="gray.300">
+            <Text fontSize="lg" color="text.secondary">
               Want to chat? Feel free to reach out.
             </Text>
             <Link href={`mailto:${EMAIL}`}>

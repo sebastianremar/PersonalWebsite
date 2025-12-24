@@ -8,7 +8,7 @@ const Me = () => {
           <Heading as="h1" fontSize={{ base: "4xl", md: "6xl" }} fontWeight="bold">
             Sebastian Remar
           </Heading>
-          <Text fontSize="lg" color="gray.400" maxW="lg">
+          <Text fontSize="lg" color="text.subtitle" maxW="lg">
             Generalist Software Engineer passionate about solving problems.
           </Text>
           <HStack gap={4} pt={6}>

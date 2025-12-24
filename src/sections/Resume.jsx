@@ -31,7 +31,7 @@ const Resume = () => {
             height="800px"
             borderRadius="md"
             border="1px solid"
-            borderColor="gray.700"
+            borderColor="border.default"
           />
         </VStack>
       </Container>

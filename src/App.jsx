@@ -8,7 +8,7 @@ import Contact from './sections/Contact'
 
 const App = () => {
   return (
-    <Box bg="gray.900" color="white">
+    <Box bg="bg.page" color="text.primary">
       <Navbar />
       <Me />
       <About />

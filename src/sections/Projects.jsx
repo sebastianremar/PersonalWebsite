@@ -1,4 +1,4 @@
-import { Box, Heading, Text, VStack, Container } from '@chakra-ui/react'
+import { Box, Heading, Text, VStack, Container, Icon } from '@chakra-ui/react'
 import { FaHardHat } from 'react-icons/fa'
 
 const Projects = () => {
@@ -10,11 +10,11 @@ const Projects = () => {
             Projects
           </Heading>
           <VStack gap={4} align="center" w="100%" py={12}>
-            <FaHardHat size={60} color="#718096" />
-            <Text fontSize="2xl" color="gray.400" fontWeight="bold">
+            <Icon as={FaHardHat} boxSize={60} color="icon.default" />
+            <Text fontSize="2xl" color="text.subtitle" fontWeight="bold">
               Work in Progress
             </Text>
-            <Text fontSize="lg" color="gray.500">
+            <Text fontSize="lg" color="text.muted">
               Stay tuned! Projects coming 2026.
             </Text>
           </VStack>
