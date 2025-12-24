@@ -24,3 +24,9 @@ dist-ssr
 *.sln
 *.sw?
 .vercel
+
+# Intlayer
+.intlayer
+
+# Next
+.next*

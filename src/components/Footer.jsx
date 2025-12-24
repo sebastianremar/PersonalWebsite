@@ -2,8 +2,8 @@ import { Box, Text, HStack, VStack, Container, Link } from '@chakra-ui/react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
 
-const GITHUB_URL = import.meta.env.VITE_GITHUB_URL
-const LINKEDIN_URL = import.meta.env.VITE_LINKEDIN_URL
+const GITHUB_URL = process.env.NEXT_PUBLIC_GITHUB_URL
+const LINKEDIN_URL = process.env.NEXT_PUBLIC_LINKEDIN_URL
 
 const Footer = () => {
   const { t } = useTranslation()

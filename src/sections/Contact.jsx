@@ -2,7 +2,7 @@ import { Box, Heading, Text, VStack, Container, Button, Link } from '@chakra-ui/
 import { FaEnvelope } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
 
-const EMAIL = import.meta.env.VITE_EMAIL
+const EMAIL = process.env.NEXT_PUBLIC_EMAIL
 
 const Contact = () => {
   const { t } = useTranslation()

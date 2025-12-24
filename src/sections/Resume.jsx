@@ -1,7 +1,8 @@
 import { Box, Heading, VStack, HStack, Container, Button, Link } from '@chakra-ui/react'
 import { FaDownload, FaExternalLinkAlt } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
-import resumePdf from '../assets/Q4_25_Remar_Sebastian.pdf'
+
+const resumePdf = '/Q4_25_Remar_Sebastian.pdf'
 
 const Resume = () => {
   const { t } = useTranslation()

@@ -1,7 +1,7 @@
 import { Box, Heading, Text, VStack, Container, Button, Link } from '@chakra-ui/react'
 import { useTranslation } from 'react-i18next'
 
-const CAL_URL = import.meta.env.VITE_CAL_URL
+const CAL_URL = process.env.NEXT_PUBLIC_CAL_URL
 
 const About = () => {
   const { t } = useTranslation()

@@ -3,8 +3,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
 import { ColorModeButton } from './ui/color-mode'
 
-const GITHUB_URL = import.meta.env.VITE_GITHUB_URL
-const LINKEDIN_URL = import.meta.env.VITE_LINKEDIN_URL
+const GITHUB_URL = process.env.NEXT_PUBLIC_GITHUB_URL
+const LINKEDIN_URL = process.env.NEXT_PUBLIC_LINKEDIN_URL
 
 const Navbar = () => {
   const { t, i18n } = useTranslation()
