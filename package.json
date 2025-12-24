@@ -4,15 +4,20 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "npm run translate && next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "translate": "npx intlayer fill"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.30.0",
     "@emotion/react": "^11.14.0",
+    "dotenv": "^17.2.3",
     "i18next": "^25.7.3",
+    "intlayer": "^7.5.6",
+    "intlayer-cli": "^7.5.6",
+    "next": "^16.1.1",
     "next-themes": "^0.4.6",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
@@ -21,6 +26,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@intlayer/sync-json-plugin": "^7.5.6",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
@@ -28,6 +34,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
+    "typescript": "5.9.3",
     "vite": "^7.2.4"
   }
 }
