@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "projects": "Proyectos",
+    "resume": "Currículum",
+    "contact": "Contacto"
+  },
+  "me": {
+    "title": "Sebastian Remar",
+    "subtitle": "Ingeniero de Software generalista apasionado por resolver problemas.",
+    "viewWork": "Ver Mi Trabajo",
+    "contactMe": "Contáctame"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "p1": "Llevo unos 5 años en el mundo del software, trabajando en empresas como Amazon y Meta. Originalmente de Lima, Perú. Estudié Ingeniería Mecánica y Aeroespacial, pero terminé aprendiendo a programar por mi cuenta.",
+    "p2": "Soy generalista. Problemas de escalabilidad, latencia, decisiones de producto. Voy donde están los problemas y los resuelvo.",
+    "p3": "Fuera del trabajo, paso tiempo ayudando a recién graduados y estudiantes universitarios con su crecimiento profesional, compartiendo todo lo que he aprendido en mi tiempo en tech. Si puedo ayudar a alguien a evitar algunos de los errores que yo cometí, eso es un triunfo.",
+    "p4": "Cuando no estoy trabajando, probablemente me encontrarás viajando a algún lugar nuevo o jugando ping pong.",
+    "schedule": "¡Agenda un 1:1 conmigo!"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "wip": "En Construcción",
+    "coming": "¡Mantente atento! Proyectos llegando en 2026."
+  },
+  "resume": {
+    "title": "Currículum",
+    "download": "Descargar",
+    "openTab": "Abrir en Nueva Pestaña"
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "¿Quieres hablar? No dudes en contactarme.",
+    "emailMe": "Envíame un Email"
+  }
+}

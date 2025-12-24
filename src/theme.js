@@ -23,7 +23,13 @@ const config = defineConfig({
             value: { _light: '{colors.gray.50}', _dark: '{colors.gray.900}' },
           },
           nav: {
+            value: { _light: 'white', _dark: '{colors.gray.800}' },
+          },
+          section: {
             value: { _light: 'white', _dark: '{colors.gray.900}' },
+          },
+          sectionAlt: {
+            value: { _light: '{colors.gray.50}', _dark: '{colors.gray.800}' },
           },
         },
         border: {

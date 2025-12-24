@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "me": {
+    "title": "Sebastian Remar",
+    "subtitle": "Generalist Software Engineer passionate about solving problems.",
+    "viewWork": "View My Work",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "I've been in the software game for about 5 years now, working at places like Amazon and Meta. Originally from Lima, Peru. Studied Mechanical and Aerospace Engineering, but ended up going the self-taught route into software.",
+    "p2": "I'm a generalist. Scaling problems, latency issues, product decisions. I go where the problems are and figure it out.",
+    "p3": "Outside of work, I spend time helping new grads and college students with career growth, sharing everything I've learned throughout my time in tech. If I can help someone skip a few of the mistakes I made, that's a win.",
+    "p4": "When I'm not working, you'll probably find me traveling somewhere new or playing ping pong.",
+    "schedule": "Schedule a 1:1 with me!"
+  },
+  "projects": {
+    "title": "Projects",
+    "wip": "Work in Progress",
+    "coming": "Stay tuned! Projects coming 2026."
+  },
+  "resume": {
+    "title": "Resume",
+    "download": "Download",
+    "openTab": "Open in New Tab"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Want to chat? Feel free to reach out.",
+    "emailMe": "Email Me"
+  }
+}

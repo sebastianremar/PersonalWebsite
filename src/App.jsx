@@ -1,5 +1,6 @@
 import { Box } from '@chakra-ui/react'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import Me from './sections/Me'
 import About from './sections/About'
 import Projects from './sections/Projects'
@@ -15,6 +16,7 @@ const App = () => {
       <Projects />
       <Resume />
       <Contact />
+      <Footer />
     </Box>
   )
 }
