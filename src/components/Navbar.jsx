@@ -17,6 +17,7 @@ const Navbar = () => {
             <Link href="#about" color="gray.300" _hover={{ color: "teal.400" }}>About</Link>
             <Link href="#projects" color="gray.300" _hover={{ color: "teal.400" }}>Projects</Link>
             <Link href="#resume" color="gray.300" _hover={{ color: "teal.400" }}>Resume</Link>
+            <Link href="#contact" color="gray.300" _hover={{ color: "teal.400" }}>Contact</Link>
             <HStack gap={4}>
               <Link href={GITHUB_URL} target="_blank" color="gray.300" _hover={{ color: "teal.400" }}>
                 <FaGithub size={20} />

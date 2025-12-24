@@ -17,9 +17,11 @@ const Me = () => {
                 View My Work
               </Button>
             </Link>
-            <Button variant="outline" colorPalette="teal" size="lg">
-              Contact Me
-            </Button>
+            <Link href="#contact">
+              <Button variant="outline" colorPalette="teal" size="lg">
+                Contact Me
+              </Button>
+            </Link>
           </HStack>
         </VStack>
       </Container>

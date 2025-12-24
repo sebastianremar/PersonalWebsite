@@ -4,6 +4,7 @@ import Me from './sections/Me'
 import About from './sections/About'
 import Projects from './sections/Projects'
 import Resume from './sections/Resume'
+import Contact from './sections/Contact'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <About />
       <Projects />
       <Resume />
+      <Contact />
     </Box>
   )
 }
